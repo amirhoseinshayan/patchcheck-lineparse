@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "provenance": {
+    "source": "oracles/lineparse/SPEC.md#seven",
+    "independent": true
+  },
+  "exit_code": 0,
+  "stdout": {
+    "mode": "exact",
+    "base64": "NDkK"
+  },
+  "stderr": {
+    "mode": "exact",
+    "base64": ""
+  }
+}
