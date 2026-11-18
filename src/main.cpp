@@ -9,7 +9,7 @@ int main(int argc, char **argv) {
     strcpy(data, argv[2]);
     char *end = nullptr; errno = 0;
     long value = strtol(data, &end, 10);
-    if (errno || end == data || *end || value < -100 || value > 100 || data[0] == '+') {
+    if (errno || end == data || *end || value < -100 || value > 100) {
         fputs("invalid\n", stderr); return 2;
     }
     printf("%ld\n", value * value); return 0;
